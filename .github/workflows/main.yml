@@ -28,7 +28,7 @@ jobs:
       - name: Upload Artifact
         uses: actions/upload-pages-artifact@v3
         with:
-         path: . # Diretório a ser deployado (raiz do repositório neste caso)
+          path: . # Diretório a ser deployado (raiz do repositório neste caso)
 
       - name: Deploy para GitHub Pages
         if: github.ref == 'refs/heads/main'
